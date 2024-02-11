@@ -1,0 +1,27 @@
+{
+  "name": "lc_modulo_parcel",
+  "version": "1.0.0",
+  "description": "Bundling with parcel",
+  "browserlist": "last 1 version",
+  "source": "./src/index.html",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "rimraf dist && parcel",
+    "build": "rimraf dist && parcel build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "d"
+  },
+  "keywords": [
+    "bundling",
+    "parcel"
+  ],
+  "author": "Sarah Schmidt",
+  "license": "ISC",
+  "devDependencies": {
+    "parcel": "^2.11.0",
+    "rimraf": "^5.0.5"
+  }
+}
