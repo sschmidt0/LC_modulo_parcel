@@ -1,0 +1,9 @@
+$space: 24px;
+
+.container {
+  width: fit-content;
+  padding: $space;
+  background-color: burlywood;
+  border: 1px solid #333;
+  border-radius: $space;
+}

@@ -1,6 +1,6 @@
 import React from "react";
 import { createRoot } from "react-dom/client";
-import { ShowGreet } from "./components/show-greet.component";
+import { BundlingList, ShowGreet } from "./components";
 import "./index.scss";
 
 
@@ -19,5 +19,6 @@ const root = createRoot(document.getElementById("root"));
 root.render(
   <div>
     <ShowGreet bundlingPackage="parcel" username="Sarah" />
+    <BundlingList listItems={['parcel', 'webpack', 'vite']}/>
   </div>
 );

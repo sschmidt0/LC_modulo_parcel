@@ -1,4 +1,5 @@
 import React from "react";
+import styles from './show-greet.module.scss';
 
 export interface ShowGreetProps {
   username: string;
@@ -7,7 +8,7 @@ export interface ShowGreetProps {
 
 export const ShowGreet = ({ bundlingPackage, username }: ShowGreetProps) => {
   return (
-    <div>
+    <div className={styles.container}>
       Muy bien {username}, veo que estás haciendo ejercicios con {bundlingPackage}
     </div>
   );
